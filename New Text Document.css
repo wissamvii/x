@@ -87,6 +87,37 @@ div.interface.text-2 > img#logo.logo {
     transform:scale(1.9) !important
 }
 
+#state-cont {
+    position: fixed;
+    left: 50vw;
+    bottom: 1em;
+    transform: translateX(-50%);
+}
+
+.state-weapon-active.text-1 {
+    position: fixed;
+    left: -36.31vw;
+    top: 20rem;
+    bottom: 5rem;
+    transform: none;
+    font-size: 12px;
+}
+
+.list-weapons > .weapon-cont > .weapon-name {
+    display: none;
+}
+
+.list-weapons > .weapon-cont > .bottom:not(.is-selected) {
+    display: none;
+}
+
+.list-weapons > .weapon-cont > .bottom > img {
+    position: fixed;
+    right: 45.45vw;
+    top: 19rem;
+    transform: none;
+    font-size: 20px;
+}
 
 /* Profile */
 .interface .left-interface {
@@ -739,4 +770,4 @@ body {
 .kill-bar-cont {
     right: 31.5rem !important;
     top: 0.5rem !important;
-}
+

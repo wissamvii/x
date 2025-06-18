@@ -100,7 +100,7 @@ div.interface.text-2 > img#logo.logo {
     top: 20rem;
     bottom: 5rem;
     transform: none;
-    font-size: 12px;
+    font-size: 8px;
 }
 
 .list-weapons > .weapon-cont > .weapon-name {
@@ -116,7 +116,7 @@ div.interface.text-2 > img#logo.logo {
     right: 45.45vw;
     top: 19rem;
     transform: none;
-    font-size: 20px;
+    font-size: 8px;
 }
 
 /* Profile */

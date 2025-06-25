@@ -10,7 +10,29 @@ div.interface.text-2 > img#logo.logo {
     /* background: linear-gradient(90.02deg,transparent .02%,rgba(34,33,69,.85) 25.53%,#1f1d58 71.86%,transparent 99.98%) !important; */
     background: linear-gradient(90.02deg,transparent .02%,#00000073 25.53%,#25252559 71.86%,transparent 99.98%) !important;
 }
-
+/* Removes Background */
+.box,
+.input,
+.quests,
+.quest,
+.tip,
+.amount,
+.reward,
+.progress-line,
+.card-cont,
+.progress[data-v-49c6809c],
+.icon-btn,
+.left-icons,
+.background,
+.title,
+.card-list,
+.head,
+.changelog-item,
+.card,
+.live-streams {
+    background: rgba(193, 0, 0, 0) !important;
+    border: none !important;
+}
 
 /*  Ad Removal */
 .ad-bottom,
@@ -89,18 +111,18 @@ div.interface.text-2 > img#logo.logo {
 
 #state-cont {
     position: fixed;
-    left: 50vw;
+    left: 51vw;
     bottom: 1em;
-    transform: translateX(-50%);
+    transform: translateX(-55%);
 }
 
 .state-weapon-active.text-1 {
     position: fixed;
-    left: -36.31vw;
-    top: 20rem;
+    left: -46.10vw;
+    top: 22rem;
     bottom: 5rem;
     transform: none;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .list-weapons > .weapon-cont > .weapon-name {
@@ -113,16 +135,16 @@ div.interface.text-2 > img#logo.logo {
 
 .list-weapons > .weapon-cont > .bottom > img {
     position: fixed;
-    right: 45.45vw;
-    top: 19rem;
+    right: 51vw;
+    top: 18rem;
     transform: none;
-    font-size: 20px;
+    font-size: 23px;
 }
 
 /* Profile */
 .interface .left-interface {
-    background-color: #121214 !important;
-    box-shadow: 0 0 10px #121214, 0 0 10px #121214 !important;
+    background-color: #000 !important;
+    box-shadow: 0 0 10px #000, 0 0 10px #000 !important;
 }
 .levels[data-v-2b0729dc] {
 	display: none;
@@ -166,8 +188,8 @@ div.interface.text-2 > img#logo.logo {
 
 /*Quests*/
 .quests {
-    background-color: #121214 !important;
-    box-shadow: 0 0 10px #121214, 0 0 10px #121214 !important;
+    background-color: #000 !important;
+    box-shadow: 0 0 10px #000, 0 0 10px #000 !important;
     border: none !important;
 }
 
@@ -438,9 +460,7 @@ button {
 .select-regions-cont {
     bottom: 95% !important;
 }
-.game-interface .chat {
-  display: none;
-}
+
 .select-region,
 .card-cont:nth-child(2) {
     background: var(--secondary-5) !important;
@@ -489,8 +509,8 @@ button {
 
 
 #play-btn {
-    background-color: #121214 !important;
-    box-shadow: 0 0 10px #121214, 0 0 10px #121214 !important;
+    background-color: #000 !important;
+    box-shadow: 0 0 10px #000, 0 0 10px #000 !important;
 }
 
 .top-bar {
@@ -499,13 +519,13 @@ button {
 }
 
 #create-btn {
-    background-color: #121214 !important;
-    box-shadow: 0 0 10px #121214, 0 0 10px #121214 !important;
+    background-color: #000 !important;
+    box-shadow: 0 0 10px #000, 0 0 10px #000 !important;
 }
 
 #join-btn {
-    background-color: #121214 !important;
-    box-shadow: 0 0 10px #121214, 0 0 10px #121214 !important;
+    background-color: #000 !important;
+    box-shadow: 0 0 10px #000, 0 0 10px #000 !important;
 }
 
 #ready-btn {
@@ -621,14 +641,14 @@ body {
 }
 
 .hp-progress {
-    background-image: linear-gradient(35deg,#5c5c5c 40%, #000000 60%) !important;
+    background-image: linear-gradient(35deg,#000 40%, #202053 60%) !important;
 
 }
 .cont-endurance {
     background: #0000003d !important;
 }
 .endurance-progress {
-    background-image: linear-gradient(35deg,#a5a5a5 30%, #707070 70%) !important;
+    background-image: linear-gradient(35deg,#1c398a 30%, #171937 70%) !important;
  
 }
 .cont-hp {
@@ -742,6 +762,9 @@ body {
     box-sizing: border-box;
     margin-top: 0.5rem;
 }
+.game-interface .chat {
+  display: none;
+}
 
 .tab-info .list,
 .tab-team-info .player-list > .list {
@@ -768,8 +791,7 @@ body {
     width: 80% !important;
     margin-left: 20% !important;
     opacity: 0.3 !important;
-}
+    }
 .kill-bar-cont {
     right: 31.5rem !important;
     top: 0.5rem !important;
-

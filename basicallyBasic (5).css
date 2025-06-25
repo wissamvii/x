@@ -118,11 +118,11 @@ div.interface.text-2 > img#logo.logo {
 
 .state-weapon-active.text-1 {
     position: fixed;
-    left: -36.31vw;
-    top: 20rem;
+    left: -36.11vw;
+    top: 22rem;
     bottom: 5rem;
     transform: none;
-    font-size: 12px;
+    font-size: 9px;
 }
 
 .list-weapons > .weapon-cont > .weapon-name {
@@ -135,14 +135,11 @@ div.interface.text-2 > img#logo.logo {
 
 .list-weapons > .weapon-cont > .bottom > img {
     position: fixed;
-    right: 45.45vw;
+    right: 43.45vw;
     top: 19rem;
     transform: none;
     font-size: 20px;
 }
-
-}
-
 
 /* Profile */
 .interface .left-interface {

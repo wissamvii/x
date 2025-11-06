@@ -1,0 +1,545 @@
+div.interface.text-2 > img#logo.logo {
+    display: none !important;
+ }
+ div#left-interface.left-interface > div#lobby-news.lobby-news > div.news-card {
+     display: none !important;
+ }
+
+/* SEARCHING GAME */
+.searching-game>* {
+    /* background: linear-gradient(90.02deg,transparent .02%,rgba(34,33,69,.85) 25.53%,#1f1d58 71.86%,transparent 99.98%) !important; */
+    background: linear-gradient(90.02deg,transparent .02%,#00000073 25.53%,#25252559 71.86%,transparent 99.98%) !important;
+}
+/* Removes Background */
+.box,
+.input,
+.quests,
+.quest,
+.tip,
+.amount,
+.reward,
+.progress-line,
+.card-cont,
+.progress[data-v-49c6809c],
+.icon-btn,
+.left-icons,
+.background,
+.title,
+.card-list,
+.head,
+.changelog-item,
+.card,
+.live-streams {
+    background: rgba(193, 0, 0, 0) !important;
+    border: none !important;
+}
+
+/*  Ad Removal */
+.ad-bottom,
+.ad-left {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Clan Tag Animation */
+@-webkit-keyframes animate{
+    to {transform:translateY(30%);}
+}
+
+@keyframes rainbow{
+		100%,0%{
+			color: rgb(116, 116, 116);
+		}
+		8%{
+			color: rgb(31, 31, 31);
+		}
+		16%{
+			color: rgb(70, 70, 70);
+		}
+		25%{
+			color: rgb(180, 180, 180);
+		}
+		33%{
+			color: rgb(37, 37, 37);
+		}
+		41%{
+			color: rgb(77, 77, 77);
+		}
+		50%{
+			color: rgba(0, 0, 0, 0);
+		}
+		58%{
+			color: rgb(100, 99, 99);
+		}
+		66%{
+			color: rgb(70, 70, 70);
+		}
+		75%{
+			color: rgb(150, 150, 150);
+		}
+		83%{
+			color: rgb(77, 77, 77);
+		}
+		91%{
+			color: rgb(20, 20, 20);
+		}
+}
+ .clan-tag {
+    font-size: 1.rem !important;
+	    background-color: transparent !important;
+}
+.heads .clan-tag {
+    -webkit-animation: glow 5s ease-in-out infinite alternate;
+    -moz-animation: glow 5s ease-in-out infinite alternate;
+    animation: glow 5s ease-in-out infinite alternate;
+}
+
+.className {
+    display: none !important;
+}
+.left-icons[data-v-20b10913] {
+    background: #121214 !important;
+    box-shadow: 0 0 10px #121214, 0 0 10px #121214 !important;
+}
+.icon-btn[data-v-323a31a5] {
+    background-color: none !important;
+}
+.selected[data-v-02a6df71] {
+    content: url(https://i.imgur.com/FHabz3Q.png) !important;
+    transform:scale(1.9) !important
+}
+
+#state-cont {
+    position: fixed;
+    left: 50vw;
+    bottom: 1em;
+    transform: translateX(-50%);
+}
+
+.state-weapon-active.text-1 {
+    position: fixed;
+    left: -36.31vw;
+    top: 20rem;
+    bottom: 5rem;
+    transform: none;
+    font-size: 12px;
+}
+
+.list-weapons > .weapon-cont > .weapon-name {
+    display: none;
+}
+
+.list-weapons > .weapon-cont > .bottom:not(.is-selected) {
+    display: none;
+}
+
+.list-weapons > .weapon-cont > .bottom > img {
+    position: fixed;
+    right: 45.45vw;
+    top: 19rem;
+    transform: none;
+    font-size: 20px;
+}
+
+/* Profile */
+.interface .left-interface {
+    background-color: #000 !important;
+    box-shadow: 0 0 10px #000, 0 0 10px #000 !important;
+}
+.levels[data-v-2b0729dc] {
+	display: none;
+}
+
+.interface .left-interface:hover {
+    opacity: 1 !important;
+}
+
+.level-cont[data-v-8f95a3ee] {
+    color: #ffffff !important;
+}
+
+.levels[data-v-2d41c8ac] {
+    display: none;
+}
+
+.progress-label {
+    display: none !important;
+}
+
+/* Progress Lines */
+.progress[data-v-60bcfa0a] {
+    background-color: #52535d !important;
+    box-shadow: 0 0 10px #121214, 0 0 10px #121214 !important;
+}
+
+.progress2 {
+    background-color: transparent !important;
+}
+
+/* HUD */
+.mini-map-cont,
+.desktop-game-interface .info-key-cont,
+.mWwn,
+.instruction,
+.quantity
+/* .list-weapons */ {
+    display: none !important;
+}
+
+/*Quests*/
+.quests {
+    background-color: #000 !important;
+    box-shadow: 0 0 10px #000, 0 0 10px #000 !important;
+    border: none !important;
+}
+
+
+.quest {
+    background-color: transparent !important;
+    border: none !important;
+}
+.quests[data-v-25f5ee0e] {
+    position: sticky !important
+}
+.items {
+    background: #121214 !important;
+    box-shadow: 0 0 1px #ffffff, 0 0 1px #ffffff !important;
+}
+/* dark text */
+/* lightdark bg */
+#gui .footer,
+.christmas .box.active,
+.button:hover,
+.bg-progress,
+.bg-level,
+.select-mod,
+.rewards,
+.mini-card .price,
+.store-skins .weapon,
+.container-card .button,
+.left-interface .progress-line,
+.progress-line.is-secondary,
+.button {
+    background: transparent !important;
+    --hover-color: #000000bd !important;
+}
+
+/* dark bg */
+#gui,
+.info-key-cont,
+#continue,
+.inventory .left,
+.inventory .avatar,
+.gun,
+.select-regions-cont,
+.container-card .wrapper,
+.changelog-item,
+.info-icon,
+.container,
+.rewards,
+.reward,
+.right-interface .settings,
+.left-interface .avatar-info,
+.left-interface .user-info,
+.left-interface .money,
+.card,
+.count,
+.time-left,
+.clans,
+.clans .items,
+.item,
+.item-content,
+.my-clan .list-container .list .item .item-content,
+.card,
+.info-awards,
+.list>.server,
+.message.trade,
+.champions-list,
+.list-container,
+.servers,
+.joinUsingURL.text-2,
+.container-card,
+.btn-invite,
+.btn-report,
+.add,
+div.chat-cont {
+    background: rgba(255, 0, 0, 0) !important;
+    border: none !important;
+}
+
+/* transparent dark */
+.container,
+.container-card,
+.scrollCancel {
+    background-color: #121214 !important;
+    border-top: none !important;
+}
+
+.bg-gradient[data-v-617be78b],
+.gun-img[data-v-617be78b],
+.cup[data-v-617be78b],
+.chests[data-v-617be78b] {
+    display: none !important;
+}
+
+/* alt */
+.message .friend {
+    color: var(--alt) !important;
+}
+
+.esc-interface {
+    background: #1212149d !important;
+}
+
+.info-key-cont[data-v-4a3fcb82] {
+    box-shadow: none !important
+}
+
+/* remove */
+.spectator .list-controls,
+#cmpPersistentLink, .mWwn,
+.end-modal .bottom,
+.tab-info .head,
+.input-wrapper .info-key-cont,
+button>.triangle,
+button>.borders,
+button::before,
+button::after,
+.chat .info,
+/* transparent bg */
+.container-card .name,
+.mWwn,
+.description,
+.input,
+.messages,
+.vm--overlay,
+.box,
+.input,
+.settings,
+.tip,
+.amount,
+.reward,
+.progress-line,
+.card-cont,
+.background,
+.container button .border-top,
+.container button .border-bottom,
+.messages.messages-cont.small,
+.title,
+.card-list,
+.head,
+.death-cont .user-card,
+.death-cont,
+.container-pre-end div,
+.bg.text-1.kd,
+.alert-default,
+.kill-bar-cont .kill-bar-item,
+.WwwnM.bg.text-1,
+.spectator>div,
+.searching-game .top,
+.searching-game .bottom,
+.loading-scene .player .level,
+.loading-scene .player,
+.background,
+.left-container .player,
+.esc-interface .right-container,
+.right-interface,
+.tab,
+.tabs,
+.tab-header,
+.tab-info,
+.tab-info .player,
+.tab-header,
+.tab-team-info,
+.profile,
+.list-cont,
+.subjects,
+.kill-bar-item,
+.timer.bg.text-1,
+.kill.bg.text-1,
+.kill.bg.text-1 + div,
+.WwNWnmw.bg.text-1,
+.changelog-item,
+.card,
+.live-streams,
+.cont,
+.clans,
+.hub-container,
+.mobile-fullscreen,
+.add-friends,
+.tab-bar,
+.subject,
+.inventory .avatar,
+.player-right,
+.ach-cont,
+.inventory .bottom,
+.border-top.border,
+.border-bottom.border,
+.background,
+.head-text,
+.reset-time,
+.info-awards,
+.news,
+.list-cont,
+.card-profile,
+.profile .k-d,
+.profile .statistics,
+.level-value,
+.levels,
+.level,
+.tab-info,
+.player-cont,
+.level-cont,
+.allo .friend,
+.allo .friend .delete,
+.hp-title.text-1,
+.cont-hp,
+.cont-endurance {
+    background: transparent !important;
+    border: none !important;
+}
+
+/* .weapons-cont .list-weapons, */
+.weapon-cont[data-v-4f0772fa] {
+    margin-bottom: 4em !important;
+}
+.weapon-img[data-v-4f0772fa] {
+    margin-right: none !important;
+}
+.allo .friend .level-label {
+    display: none;
+}
+
+.content>.inventory>.left>.bottom>.gun {
+    width: 100%;
+    background: var(--dark);
+    margin: 0;
+    max-height: 105px;
+}
+
+/* margin reset */
+.chat .input,
+.top-bar,
+.allo .friend:first-child {
+    margin: 0 !important;
+}
+
+/* Chat */
+.author-name {
+    color: rgb(255, 255, 255) !important;
+    font-weight: 900 !important;
+}
+
+span.author-name.is-friend {
+    color: #e64848 !important;
+    font-weight: 900 !important;
+}
+.message.trade {
+    background-color: #414141b2 !important;
+}
+
+.select-region,
+.select-mod,
+.card-cont,
+.avatar-info,
+.user-info,
+.money,
+.icon-btn,
+button {
+    border: none !important;
+}
+
+button {
+    transform: none !important;
+}
+
+.input {
+    border: 0.15rem solid var(--secondary-5) !important
+}
+
+.select-regions-cont {
+    bottom: 95% !important;
+}
+
+.select-region,
+.card-cont:nth-child(2) {
+    background: var(--secondary-5) !important;
+}
+
+.card-cont:nth-child(2):hover {
+    background: var(--secondary-2) !important;
+}
+
+.christmas .box.active {
+    outline: 0.2rem solid var(--main) !important;
+}
+
+.christmas .box:hover {
+    outline: 0.2rem solid white !important;
+}
+
+.custom-checkbox>span:before {
+    border-color: var(--main) !important;
+    background: var(--dark) !important;
+}
+
+.custom-checkbox.checkbox-size>[data-v-730c0c40]:before {
+    background-color: #292828 !important;
+    border: none;
+}
+
+.custom-checkbox>input:checked+span[data-v-730c0c40]:before {
+    background-color: var(--main) !important;
+    border: none;
+}
+
+.spectator .infos {
+    bottom: 4rem !important;
+    font-size: 1.25rem !important;
+}
+
+.container-card .border {
+    display: none;
+}
+
+.soc-group:nth-child(1),
+.soc-group:nth-child(2) {
+    visibility: hidden !important;
+}
+
+
+#play-btn {
+    background-color: #000 !important;
+    box-shadow: 0 0 10px #000, 0 0 10px #000 !important;
+}
+
+.top-bar {
+    background: transparent !important;
+    border: none !important
+}
+
+#create-btn {
+    background-color: #000 !important;
+    box-shadow: 0 0 10px #000, 0 0 10px #000 !important;
+}
+
+#join-btn {
+    background-color: #000 !important;
+    box-shadow: 0 0 10px #000, 0 0 10px #000 !important;
+}
+
+#ready-btn {
+    background-color: #121214 !important;
+    box-shadow: 0 0 10px #121214, 0 0 10px #121214 !important;
+}
+
+#leave-btn {
+    background-color: #121214 !important;
+    box-shadow: 0 0 10px #121214, 0 0 10px #121214 !important;
+}
+
+.tooltip {
+    background: #121214 !important;
+    border-color: white !important;
+}
+.alert-

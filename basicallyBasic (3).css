@@ -85,7 +85,7 @@ div.interface.text-2 > img#logo.logo {
 		}
 }
  .clan-tag {
-    font-size: 1.rem !important;
+    font-size: 1rem !important;
 	    background-color: transparent !important;
 }
 .heads .clan-tag {
@@ -106,39 +106,8 @@ div.interface.text-2 > img#logo.logo {
 }
 .selected[data-v-02a6df71] {
     content: url(https://i.imgur.com/FHabz3Q.png) !important;
-    transform:scale(1.9) !important
-}
-
-#state-cont {
-    position: fixed;
-    left: 50vw;
-    bottom: 1em;
-    transform: translateX(-50%);
-}
-
-.state-weapon-active.text-1 {
-    position: fixed;
-    left: -36.31vw;
-    top: 20rem;
-    bottom: 5rem;
-    transform: none;
-    font-size: 12px;
-}
-
-.list-weapons > .weapon-cont > .weapon-name {
-    display: none;
-}
-
-.list-weapons > .weapon-cont > .bottom:not(.is-selected) {
-    display: none;
-}
-
-.list-weapons > .weapon-cont > .bottom > img {
-    position: fixed;
-    right: 45.45vw;
-    top: 19rem;
-    transform: none;
-    font-size: 20px;
+    transform:scale(1.9) !important;
+    font-size: 9px;
 }
 
 /* Profile */
@@ -762,9 +731,6 @@ body {
     box-sizing: border-box;
     margin-top: 0.5rem;
 }
-.game-interface .chat {
-  display: none;
-}
 
 .tab-info .list,
 .tab-team-info .player-list > .list {
@@ -791,7 +757,9 @@ body {
     width: 80% !important;
     margin-left: 20% !important;
     opacity: 0.3 !important;
-    }
+}
+
 .kill-bar-cont {
     right: 31.5rem !important;
     top: 0.5rem !important;
+}

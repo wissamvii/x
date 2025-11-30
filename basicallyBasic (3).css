@@ -85,7 +85,7 @@ div.interface.text-2 > img#logo.logo {
 		}
 }
  .clan-tag {
-    font-size: 1rem !important;
+    font-size: 1.rem !important;
 	    background-color: transparent !important;
 }
 .heads .clan-tag {
@@ -106,7 +106,7 @@ div.interface.text-2 > img#logo.logo {
 }
 .selected[data-v-02a6df71] {
     content: url(https://i.imgur.com/FHabz3Q.png) !important;
-    transform:scale(1.9) !important;
+    transform:scale(1.9) !important
     font-size: 9px;
 }
 
@@ -578,7 +578,7 @@ body {
 }
 
 .interface .background {
-    background: url(https://h.top4top.io/p_3423wbji21.png) no-repeat !important;
+    background: url(https://i.ibb.co/wt6ZZrg/dfgdfgdfg.png) no-repeat !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
 }
@@ -757,9 +757,7 @@ body {
     width: 80% !important;
     margin-left: 20% !important;
     opacity: 0.3 !important;
-}
-
+    }
 .kill-bar-cont {
     right: 31.5rem !important;
     top: 0.5rem !important;
-}
